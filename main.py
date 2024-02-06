@@ -7,6 +7,8 @@ from sqlalchemy.orm import Session
 from fastapi.middleware.cors import CORSMiddleware
 
 
+#uvicorn main:app
+
 engine = create_engine(
     DB_URL
 )
